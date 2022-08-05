@@ -7,8 +7,8 @@ class crystal:
                 }
         self.config = config
     def syntax(self):
-        createVar = "vex type name;"
-        createVal = "spec value;"
+        createVar = "vex type name;\n"
+        createVal = "spec value;\n"
         return [createVar, createVal]
     def get(self, path):
         if not os.path.exists(path):
