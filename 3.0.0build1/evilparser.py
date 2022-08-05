@@ -6,7 +6,7 @@ class crystal:
 
                 }
         self.config = config
-    def syntax(self);
+    def syntax(self):
         createVar = "vex type name;"
         createVal = "spec value;"
         return [createVar, createVal]
